@@ -3,7 +3,7 @@ from typing import List
 from agent.tools.text_to_sql_tools import TableSchemaTool, SQLQueryTool, SQLQueryCheckerTool, ListTablesTool
 from langchain.agents import create_agent
 from langchain_core.tools import BaseTool
-from agent.my_llm import qwen,deepseek
+from agent.my_llm import deepseek
 from agent.utils.db_utils import MySQLDatabaseManager
 
 
